@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_introduction"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a46146.musicalstrueture.IntroductionActivity">
+
+    <TextView
+        style="@style/Title_style"
+        android:text="@string/song_introduction_name" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_zero"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:id="@+id/iv_pic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_zero"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_paddingLeft">
+
+        <LinearLayout style="@style/Linear_introduction_style">
+
+            <TextView
+                style="@style/tv_introduce_style"
+                android:text="@string/song_name" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/tv_detail_style" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/Linear_introduction_style">
+
+            <TextView
+                style="@style/tv_introduce_style"
+                android:text="@string/singer_name" />
+
+            <TextView
+                android:id="@+id/tv_singer"
+                style="@style/tv_detail_style" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/Linear_introduction_style">
+
+            <TextView
+                style="@style/tv_introduce_style"
+                android:text="@string/Album_name" />
+
+            <TextView
+                android:id="@+id/tv_Album"
+                style="@style/tv_detail_style" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/activity_marginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/activity_marginLeft</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textSize">@dimen/activity_title</item>
+    </style>
+
+    <style name="Linear_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="tv_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/activity_marginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/activity_marginLeft</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textSize">@dimen/activity_text</item>
+    </style>
+
+    <style name="iv_music_style">
+        <item name="android:layout_width">@dimen/imageView_play</item>
+        <item name="android:layout_height">@dimen/imageView_play</item>
+    </style>
+
+    <style name="btn_introduction_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/imageView_play</item>
+    </style>
+
+    <style name="Linear_introduction_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/activity_zero</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/activity_marginBottom</item>
+    </style>
+
+    <style name="tv_introduce_style">
+        <item name="android:textSize">@dimen/activity_text</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_detail_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">@dimen/activity_text</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+</resources>

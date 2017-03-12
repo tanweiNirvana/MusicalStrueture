@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_title">36sp</dimen>
+    <dimen name="activity_text">16sp</dimen>
+    <dimen name="activity_marginLeft">16dp</dimen>
+    <dimen name="activity_marginBottom">8dp</dimen>
+    <dimen name="imageView_play">36dp</dimen>
+    <dimen name="activity_paddingLeft">16dp</dimen>
+    <dimen name="activity_paddingBottom">8dp</dimen>
+    <dimen name="iv_music">128dp</dimen>
+    <dimen name="activity_zero">0dp</dimen>
+</resources>

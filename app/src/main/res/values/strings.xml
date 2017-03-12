@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="home_page_name">home page</string>
+    <string name="introduction_name">introduction</string>
+    <string name="music_name">music</string>
+    <string name="list_name">音乐库</string>
+    <string name="music_one">This Song Is About You</string>
+    <string name="music_two">Undo</string>
+    <string name="music_three">Road Trip</string>
+    <string name="button_introduction_name">简介</string>
+    <string name="song_introduction_name">歌曲信息</string>
+    <string name="song_name">歌名</string>
+    <string name="singer_name">歌手</string>
+    <string name="Album_name">专辑</string>
+    <string name="Lyric_name">歌词</string>
+</resources>
